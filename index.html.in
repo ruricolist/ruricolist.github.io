@@ -1,0 +1,248 @@
+<!-- -*- mode: web -*- -->
+<#define fable|<li><a href=#1>#2</a></li>>
+<#define item|<li><a href=#1>#2</a> <i>#3</i></li>>
+<#define ru|"http://the.ruricolist.com/">
+<#define rubk|"https://www.amazon.com/dp/1794566694/">
+<#define ignore|>
+
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <title>The Ruricolist</title>
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic" rel="stylesheet" type="text/css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <meta name="description"
+          content="Paul M. Rodriguez is the author of The Ruricolist and The Endless City.">
+    <style>
+     * {box-sizing: border-box;}
+     body {
+       font-size: 20px;
+       width: 50rem;
+       max-width: 100%;
+       margin: 5rem auto 0 auto;
+       padding: 0 1em;
+       font-family: Sorts Mill Goudy, serif;
+       font-feature-settings: "onum", "kern", "liga";
+     }
+     p, li {
+       text-align: justify;
+       text-justify: newspaper;
+       hyphens: auto;
+       text-rendering: optimizeLegibility;
+     }
+     a {color: inherit}
+     blockquote, small {
+       font-size: 90%;
+     }
+     blockquote {
+       font-style: italic;
+     }
+     h1 {
+       font-size: 2rem;
+       font-weight: normal;
+       text-align: center;
+       /* color: #C80815;
+          text-shadow: 0px 0px 1px #E00; */
+       font-feature-settings: "tnum";
+       font-variant-numeric: tabular-nums;
+     }
+     ul {
+         display:table;
+         width: auto;
+         margin: 0 auto;
+         list-style-type: none;
+         padding-left: 0;
+     }
+     .huge { font-size: 4.2rem; }
+     .center { text-align: center}
+     .allcaps {
+       text-transform: uppercase;
+       letter-spacing: 0.4em;
+     }
+     section { margin-bottom: 3.236em; }
+     footer { margin: 8rem 0 4rem 0; }
+    </style>
+  </head>
+  <body>
+    <h1 class="allcaps center">Paul M. Rodriguez</h1>
+    <div class="huge center allcaps" style="margin-bottom: 0.618em">
+      Works
+    </div>
+
+    <section>
+        <p>Paul M. Rodriguez is (among other things) an <a href="#ru">essayist</a>, <a href="#ec">novelist</a>, <a href="#rambler">scholar</a>, and <a href="#oss">programmer</a>.</p>
+    </section>
+
+    <section id=ru>
+        <h1><i><a href=<#rubk>>The Ruricolist</a></i> · Essay series</h1>
+
+        <img src="img/ruricolist-cover.png"
+             style="float: left; padding: 0 2em 2em 0">
+
+        <p><i>The Ruricolist</i> is a single-author essay series, broadly philosophical in content. Originally a <a href="https://the.ruricolist.com">blog</a>, it is now also available in <a href="https://www.amazon.com/dp/1794566694">print</a>.</p>
+
+        <p><i>The Ruricolist</i> is mostly essays – <a href="http://the.ruricolist.com/search/label/essays">157 of them</a>, such as:</p>
+
+        <ul>
+            <#item "http://the.ruricolist.com/2009/01/uncut-pages.html"|Uncut pages|– on writing>
+            <#item "http://the.ruricolist.com/2011/08/cell-intelligence_17.html"|Cell intelligence|– on ideas>
+            <li>
+                <a href="http://the.ruricolist.com/2011/05/laika.html">
+                    Laika</a>
+                <i>– on dogs</i>
+            </li>
+            <li>
+                <a href="http://the.ruricolist.com/2009/11/xerxes.html">
+                    Xerxes</a>
+                <i>– on history</i>
+            </li>
+            <li>
+                <a href="http://the.ruricolist.com/2009/03/civilizations.html">
+                    Civilizations</a>
+                <i>– on history</i>
+            </li>
+            <li>
+                <a href="http://the.ruricolist.com/2009/10/technology.html">
+                    Lead</a>
+                <i>– on human nature</i>
+            </li>
+            <li>
+                <a href="http://the.ruricolist.com/2010/04/roadkill.html">
+                    Roadkill</a>
+                <i>– on death</i>
+            </li>
+        </ul>
+
+        <p>The rest of the 234 numbers is made up of <a href="http://the.ruricolist.com/search/label/tales">stories</a>,
+            <a href="http://the.ruricolist.com/search/label/fables">fables</a>, <a href="http://the.ruricolist.com/search/label/satires">satires</a>, <a href="http://the.ruricolist.com/search/label/monologues">monologues</a>, <a href="http://the.ruricolist.com/search/label/nondefinitions">nondefinitions,</a> and others. I think the fables are particularly good:</p>
+
+        <ul>
+            <#item "http://the.ruricolist.com/2007/08/fable-of-whale-and-dolphin.html"|Fable of the Whale and the Dolphin>
+            <#item "http://the.ruricolist.com/2007/11/fable-of-spider-and-songbird.html"|Fable of the Spider and the Songbird>
+            <#item "http://the.ruricolist.com/2009/11/fable-of-wasp-and-caterpillar.html"|Fable of the Wasp and the Caterpillar>
+            <#item "http://the.ruricolist.com/2009/12/fable-of-dog-and-wolf.html"|Fable of the Dog and the Wolf>
+        </ul>
+
+        <p><i>The Ruricolist</i> can be read at <a href="http://the.ruricolist.com">the.ruricolist.com</a>, or as a <a href="https://www.amazon.com/dp/1794566694">book</a>.</p>
+
+    </section>
+
+    <section id=ec>
+        <h1><i><a href="http://www.amazon.com/The-Endless-City-Paul-Rodriguez/dp/130081098X/">The Endless City</a></i> · Novel</h1>
+
+        <p><i>The Endless City</i> is a novel. The setting is what might be called post-apocalyptic, but not in the wake of destruction. What kind of society would people have, in the ruins of a world they could no longer remember or understand?
+        </p>
+
+        <div style="display: flex">
+            <div style="margin: 0 auto;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SWpFwGcjzZ8?si=kReQAJc2zojl-L9E&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        </div>
+        <p>Readers frequently compare <i>The Endless City</i> to Cormac McCarthy and Jorge Luis Borges.</p>
+
+        <ul>
+            <li>
+                <a href="http://www.amazon.com/Endless-City-Paul-M-Rodriguez-ebook/dp/B00AQR4TRC/">
+                    <i>The Endless City</i> (Kindle)
+                </a>
+            </li>
+            <li>
+                <a href="https://amazon.com/Endless-City-Paul-M-Rodriguez/dp/1650625111/">
+                    <i>The Endless City</i> (Print)
+                </a>
+            </li>
+        </p>
+        </ul>
+
+    </section>
+
+    <section id=rambler>
+        <h1><a href="http://www.amazon.com/Rambler-Samuel-Johnson-ebook/dp/B006U9DDXG/"><i>The Rambler</i></a> · Editor</h1>
+
+        <img src="img/rambler-cover.jpg"
+             style="float: left; padding: 0 2em 2em 0">
+
+      <p>The only complete electronic edition of Samuel Johnson's <i>Rambler</i>
+      available anywhere online, with all classical quotations (Latin
+      and Greek) checked and corrected against their original sources.</p>
+
+      <ul>
+        <#item "http://www.amazon.com/Rambler-Samuel-Johnson-ebook/dp/B006U9DDXG/"|The Rambler|(Kindle)>
+        <#item "http://www.barnesandnoble.com/w/rambler-samuel-johnson/1100108921?ean=2940150724181"|The Rambler|(Nook)>
+      </ul>
+
+      <p>This edition is now also available in print (as a single, complete volume):</p>
+
+      <ul>
+      <#item "http://www.amazon.com/Rambler-Samuel-Johnson/dp/1507724799/"|The Rambler|(Print)>
+      </ul>
+
+</section>
+
+<section id=oss>
+    <h1><a href="https://github.com/ruricolist">Open Source Development</a></h1>
+
+    <p>I have written many open-source libraries, principally in Common Lisp.</p>
+
+    <p>The most popular are <a href="https://github.com/ruricolist/spinneret">Spinneret</a>,
+        an HTML generator; <a href="https://github.com/ruricolist/serapeum">Serapeum</a>,
+        a utility library; <a href="https://github.com/ruricolist/overlord">Overlord</a>,
+        a build system; and <a href="https://github.com/ruricolist/vernacular">Vernacular</a>,
+        a module system for embedded languages.</p>
+
+    <p>More open-source work can be found at:</p>
+
+    <ul>
+        <li><a href="https://github.com/ruricolist">GitHub </a></li>
+        <li><a href="https://gitlab.com/ruricolist">GitLab </a></li>
+    </ul>
+
+    <p>I also write a blog about programming:</p>
+
+    <ul>
+        <li> <a href="https://etc.ruricolist.com">&c. – Notes and digressions</a></li>
+    </ul>
+
+</section>
+
+<section id=etc>
+    <h1 class="allcaps"><i>Et cætera</i></h1>
+    <ul>
+        <li>
+            <a href="http://dwarfplanetpress.wordpress.com/2010/03/16/the-titling-of-imagined-books/">
+                <i>The Titling of Imagined Books</i>
+            </a>
+            (Dwarf Planet Press)
+        </li>
+        <li>
+            <a href="http://www.kyotojournal.org/the-journal/culture-arts/the-hollow-staff/">
+                <i>The Hollow Staff</i>
+            </a>
+            (<a href="http://www.kyotojournal.org/">Kyoto Journal</a>)
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=Ify8ZmcwPss&t=539s">
+                <i>On Scholé</i>
+            </a>
+        </li>
+        <p>
+
+            <li><a href="mailto:pmr@ruricolist.com">Email</a></li>
+
+            <li> <a href="https://news.ycombinator.com/user?id=ruricolist">
+                Hacker News </a></li>
+            <li> <a href="https://www.reddit.com/user/ruricolist/">
+                Reddit </a>
+            </li>
+            <li> <a href="https://twitter.com/ruricolist"> Twitter </a></li>
+            <li> <a href="https://www.linkedin.com/in/paul-rodriguez-36902a1b5/"> LinkedIn </a></li>
+    </ul>
+</section>
+
+<footer class="center"">
+    <small class="allcaps">
+        © Paul M. Rodriguez 2015–2025
+    </small>
+</footer>
+
+  </body>
+</html>
